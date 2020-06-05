@@ -1,0 +1,5 @@
+<template>
+  <div class="examples">
+    <h2>Examples</h2>
+  </div>
+</template>

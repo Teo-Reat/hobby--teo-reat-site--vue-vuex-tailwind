@@ -1,32 +1,33 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+  <div id="app" class="container mx-auto py-4 lg:py-16">
+    <nav class="navigation w-11/12 mx-auto flex justify-between text-center text-white lg:w-1/3">
+      <router-link to="/" class="relative w-24 px-4 py-2 lg:text-xl" exact>Home</router-link>
+      <router-link to="/examples" class="relative w-24 px-4 py-2 lg:text-xl">Examples</router-link>
+      <router-link to="/contacts" class="relative w-24 px-4 py-2 lg:text-xl">Contacts</router-link>
+    </nav>
+    <main class="main w-11/12 mx-auto bg-white mt-8">
+      <router-view/>
+    </main>
+    <footer class="text-white text-center mt-8">
+      @Teo_Reat
+    </footer>
   </div>
 </template>
 
-<style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+<style>
+ .router-link-active::after {
+   content: '';
+   box-sizing: content-box;
+   display: block;
+   position: absolute;
+   width: 0;
+   height: 0;
+   background: transparent;
+   border-left: 25px solid transparent;
+   border-right: 25px solid transparent;
+   border-bottom: 25px solid white;
+   bottom: -35px;
+   left: 26px;
+   z-index: -1;
+ }
 </style>

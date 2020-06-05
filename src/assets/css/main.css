@@ -1,0 +1,25 @@
+/*---Fonts*/
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/*---Global styles*/
+body {
+    background: linear-gradient(150deg, rgba(236,180,163,1) 0%, rgba(140,95,120,1) 70%) no-repeat fixed;
+    font-family: Ubuntu, Arial, sans-serif;
+}
+
+/*---Navigation*/
+/*.navigation > a {*/
+/*    position: relative;*/
+/*    width: 100px;*/
+/*}*/
+
+/*---Home style*/
+/*img {*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    height: 300px;*/
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
