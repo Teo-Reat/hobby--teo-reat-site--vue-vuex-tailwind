@@ -8,7 +8,7 @@
     <a href="https://vk.com/teo_reat"
        target="_blank"
        class="bg-red-200 rounded-full h-16 w-16 lg:h-32 lg:w-32">
-      <img src="../assets/img/icons/vk-brands.svg" alt="" class="mx-auto my-3 lg:my-6">
+      <img src="../assets/img/icons/vk-brands.svg" alt="" class="mx-auto my-4 lg:my-8">
     </a>
     <a href="https://github.com/Teo-Reat"
        target="_blank"

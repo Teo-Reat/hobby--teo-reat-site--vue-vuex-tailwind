@@ -1,11 +1,25 @@
 /*---Fonts*/
-/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 /*---Global styles*/
 body {
     background: linear-gradient(150deg, rgba(236,180,163,1) 0%, rgba(140,95,120,1) 70%) no-repeat fixed;
     font-family: Ubuntu, Arial, sans-serif;
+}
+.navigation > a::after {
+    content: '';
+    box-sizing: content-box;
+    display: block;
+    position: absolute;
+    height: 0;
+    background: transparent;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid white;
+    bottom: -75px;
+    left: 10px;
+    right: 10px;
+    z-index: -1;
 }
 
 /*---Navigation*/
